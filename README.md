@@ -1,6 +1,6 @@
-Machine Learning Repository
+## Machine Learning Repository
 
-Welcome to the Machine Learning project repository.
+### Welcome to the Machine Learning project repository.
 This repository contains practical implementations, detailed explanations, and hands-on examples for foundational machine learning algorithms.
 The goal is to make ML concepts easier to understand through code, comments, and real datasets.
 
