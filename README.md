@@ -1,143 +1,145 @@
-Machine Learning Repository
+# Machine Learning -- Practical Implementations
 
-Welcome to the Machine Learning project repository.
-This repository contains practical implementations, detailed explanations, and hands-on examples for foundational machine learning algorithms.
-The goal is to make ML concepts easier to understand through code, comments, and real datasets.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active%20%26%20Updating-brightgreen)
 
-Key Highlights
+A complete, hands-on repository of Machine Learning algorithms
+implemented from scratch and with libraries such as **NumPy**,
+**Pandas**, and **Scikit-learn**.\
+Each chapter includes explanations, step-by-step logic, and real-world
+datasets to help you learn ML by doing.
 
-End-to-end implementations of popular ML algorithms
+## 🚀 Features
 
-Beginner-friendly explanations and well-commented Python code
+-   Fundamentals of Machine Learning implemented in Python\
+-   Beginner-friendly, readable, fully commented code\
+-   Real datasets for practical learning\
+-   Covers both **theory** and **implementation**\
+-   Easy to extend and contribute
 
-Real-world datasets included wherever possible
+## 📂 Repository Structure
 
-Regular updates to expand coverage across ML topics
+    Machine-Learning/
+    │
+    ├── kNN/
+    │   ├── simple_knn.py
+    │   ├── dating_knn.py
+    │   └── digit_recognition_knn.py
+    │
+    ├── Decision Tree/
+    │   ├── decision_tree.py
+    │   └── sklearn_decision_tree.py
+    │
+    ├── Naive Bayes/
+    │   ├── bayes.py
+    │   ├── bayes-modify.py
+    │   └── nbc.py
+    │
+    ├── Logistic/
+    │   ├── LogRegres.py
+    │   ├── LogRegres-gj.py
+    │   └── colicLogRegres.py
+    │
+    ├── SVM/
+    │   ├── svm-simple.py
+    │   ├── svm-smo.py
+    │   ├── svmMLiA.py
+    │   └── svm-svc.py
+    │
+    ├── AdaBoost/
+    │   ├── adaboost.py
+    │   ├── horse_adaboost.py
+    │   ├── sklearn_adaboost.py
+    │   └── ROC.py
+    │
+    ├── Regression/
+    │   ├── regression_old.py
+    │   ├── abalone.py
+    │   ├── regression.py
+    │   └── lego.py
+    │
+    └── Regression Trees/
+        └── regTrees.py
 
-Code examples designed for practice and self-learning
+## 🔧 Installation
 
-Table of Contents
-Chapter 2: K-Nearest Neighbors (KNN)
+``` bash
+git clone https://github.com/yourusername/Machine-Learning.git
+cd Machine-Learning
+pip install -r requirements.txt
+```
 
-Articles
+## ▶️ How to Use
 
-Topic	Link
-KNN Algorithm – Concepts & Tutorial	(Personal Website Link Removed)
+Run any algorithm directly:
 
-Code Examples
+``` bash
+python kNN/simple_knn.py
+python Logistic/LogRegres.py
+python SVM/svm-svc.py
+```
 
-Entry-level KNN
+## 📘 Chapters Overview
 
-Dating dataset classification
+### Chapter 2: K-Nearest Neighbors (KNN)
 
-Handwritten digit recognition
+-   Simple KNN classifier\
+-   Dating dataset classification\
+-   Digit recognition
 
-Chapter 3: Decision Trees
+### Chapter 3: Decision Trees
 
-Articles
+-   Loan prediction\
+-   Contact lenses classification
 
-Topic	Link
-Decision Tree – Basic Concepts	(Personal Website Link Removed)
-Decision Tree – Practical Example (Contact Lenses Dataset)	(Personal Website Link Removed)
+### Chapter 4: Naive Bayes
 
-Code Examples
+-   Comment filtering\
+-   Spam filtering\
+-   News classification
 
-Loan prediction using Decision Tree
+### Chapter 5: Logistic Regression
 
-Contact lens classification (Scikit-learn version)
+-   Logistic regression from scratch\
+-   Improved random gradient ascent\
+-   Horse mortality prediction
 
-Chapter 4: Naive Bayes
+### Chapter 6: Support Vector Machines (SVM)
 
-Articles
+-   SMO algorithms\
+-   Nonlinear SVM\
+-   Scikit-learn SVC
 
-Topic	Link
-Naive Bayes – Basic Concepts: Comment Filtering	(Personal Website Link Removed)
-Naive Bayes – Practical Application: News Classification	(Personal Website Link Removed)
+### Chapter 7: AdaBoost
 
-Code Examples
+-   Decision stump AdaBoost\
+-   Hard dataset AdaBoost\
+-   ROC plotting
 
-Comment filter
+### Chapter 8: Linear Regression
 
-Spam filter
+-   Ordinary & Locally Weighted LR\
+-   Abalone age prediction\
+-   Stepwise regression\
+-   Lego price prediction
 
-News categorization
+### Chapter 9: Regression Trees
 
-Chapter 5: Logistic Regression
+-   CART regression tree\
+-   Tree pruning
 
-Articles
+## 🤝 Contributing
 
-Topic	Link
-Logistic Regression – Gradient Ascent Explained	(Personal Website Link Removed)
-Logistic Regression – Horse Mortality Prediction	(Personal Website Link Removed)
+1.  Fork the repository\
+2.  Create a new branch\
+3.  Commit your changes\
+4.  Submit a pull request
 
-Code Examples
+## 📄 License
 
-Intro exercise for logistic regression
+MIT License
 
-Improved stochastic gradient ascent
+## ⭐ Support
 
-Horse colic prediction using Logistic Regression
-
-Chapter 6: Support Vector Machines (SVM)
-
-Articles
-
-Topic	Link
-SVM – Linear SVM from Scratch	(Personal Website Link Removed)
-SVM – Nonlinear SVM from Scratch	(Personal Website Link Removed)
-
-Code Examples
-
-Simplified SMO algorithm
-
-Full SMO algorithm
-
-Nonlinear SVM implementation
-
-Scikit-learn SVC version
-
-Chapter 7: AdaBoost
-
-Articles
-
-Topic	Link
-AdaBoost – Boosting Concept and Implementation	(Personal Website Link Removed)
-
-Code Examples
-
-AdaBoost training using decision stumps
-
-AdaBoost on complex datasets
-
-AdaBoost using Scikit-learn
-
-ROC curve visualization
-
-Chapter 8: Linear Regression
-
-Articles
-
-Topic	Link
-Linear Regression – Part 1	(Personal Website Link Removed)
-Linear Regression – Part 2	(Personal Website Link Removed)
-
-Code Examples
-
-Ordinary and Locally Weighted Linear Regression
-
-Abalone age prediction
-
-Stepwise regression
-
-Lego price prediction
-
-Chapter 9: Regression Trees
-
-Articles
-
-Topic	Link
-Regression Trees – CART Algorithm & Pruning	(Personal Website Link Removed)
-
-Code Examples
-
-Regression Tree implementation
+If you find this useful, please consider starring ⭐ the repository!
