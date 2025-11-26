@@ -61,6 +61,10 @@ datasets to help you learn ML by doing.
     │
     └── Regression Trees/
         └── regTrees.py
+<<<<<<< HEAD
+=======
+-----
+>>>>>>> b0ea04c1d910f7678875fb03b6cb81eaaed4899c
 
 ## 🔧 Installation
 
